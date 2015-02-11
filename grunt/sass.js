@@ -1,5 +1,8 @@
 module.exports = {
   default: {
+    options: {
+      sourcemap: 'none'
+    },
     files: [{
       expand: true,
       cwd: './src/scss',
