@@ -5,7 +5,6 @@ module.exports = {
       reload: true
     }
   },
-
   scripts: {
     files: [
       './src/javascripts/**/*.js'
@@ -15,7 +14,6 @@ module.exports = {
       spawn: false
     }
   },
-
   styles: {
     files: './src/scss/**/*.scss',
     tasks: ['styles'],
@@ -23,7 +21,6 @@ module.exports = {
       spawn: false
     }
   },
-
   images: {
     files: './src/images/**/*.{png,jpg,jpeg,gif}',
     tasks: ['images'],
