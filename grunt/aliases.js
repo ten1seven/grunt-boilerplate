@@ -7,7 +7,9 @@ module.exports = {
 
   'styles': [
     'sass',
+    'cssUrlEmbed',
     'autoprefixer',
+    'combine_mq',
     'html'
   ],
 
@@ -28,11 +30,13 @@ module.exports = {
 
   'compile': [
     'clean',
+    'images',
     'sass',
+    'cssUrlEmbed',
     'autoprefixer',
+    'combine_mq',
     'browserify',
     'modernizr',
-    'html',
-    'images'
+    'html'
   ]
 };
