@@ -1,11 +1,11 @@
 module.exports = {
   'default': [
     'connect',
-    'open',
     'watch'
   ],
 
   'styles': [
+    'sass_globbing',
     'sass',
     'cssUrlEmbed',
     'autoprefixer',
@@ -28,9 +28,10 @@ module.exports = {
     'inline'
   ],
 
-  'compile': [
+  'build': [
     'clean',
     'images',
+    'sass_globbing',
     'sass',
     'cssUrlEmbed',
     'autoprefixer',

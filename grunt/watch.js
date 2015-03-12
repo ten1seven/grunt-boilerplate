@@ -7,7 +7,7 @@ module.exports = {
   },
   scripts: {
     files: [
-      './src/javascripts/**/*.js'
+      './src/scripts/**/*.js'
     ],
     tasks: ['scripts'],
     options: {
@@ -15,7 +15,7 @@ module.exports = {
     }
   },
   styles: {
-    files: './src/scss/**/*.scss',
+    files: './src/styles/**/*.scss',
     tasks: ['styles'],
     options: {
       spawn: false

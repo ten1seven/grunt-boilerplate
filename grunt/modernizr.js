@@ -1,7 +1,7 @@
 module.exports = {
   "dist": {
     "devFile": "remote",
-    "outputFile": "./www/assets/javascripts/modernizr.js",
+    "outputFile": "./www/assets/scripts/modernizr.js",
     "extra" : {
       "shiv": false,
       "printshiv": false,

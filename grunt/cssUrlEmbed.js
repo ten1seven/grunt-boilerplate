@@ -4,8 +4,8 @@ module.exports = {
       skipUrlsLargerThan: '1 KB'
     },
     expand: true,
-    cwd: './www/assets/stylesheets',
+    cwd: './www/assets/styles',
     src: [ '**/*.css' ],
-    dest: './www/assets/stylesheets'
+    dest: './www/assets/styles'
   }
 };

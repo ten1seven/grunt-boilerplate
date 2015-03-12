@@ -4,6 +4,6 @@ module.exports = {
     uglify: true
   },
   multiple_files: {
-    src: './www/*.html'
+    src: './www/**/*.html'
   }
 };

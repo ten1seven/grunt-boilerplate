@@ -1,5 +1,6 @@
 module.exports = {
   default: [
-    './www/'
+    './www/',
+    './src/styles/globs/'
   ]
 };

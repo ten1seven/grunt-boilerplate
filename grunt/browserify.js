@@ -1,7 +1,7 @@
 module.exports = {
   default: {
     files: {
-      './www/assets/javascripts/index.js': ['./src/javascripts/index.js']
+      './www/assets/scripts/index.js': ['./src/scripts/index.js']
     }
   }
 };

@@ -2,9 +2,9 @@ module.exports = {
   dynamic: {
     files: [{
       expand: true,
-      cwd: './src/images/',
+      cwd: './src/images',
       src: ['**/*.{png,jpg,jpeg,gif,ico}'],
-      dest: './www/assets/images/'
+      dest: './www/assets/images'
     }]
   }
 };

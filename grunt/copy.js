@@ -1,9 +1,8 @@
 module.exports = {
   html: {
-    cwd: './',
-    src: '*.html',
+    cwd: './pages',
+    src: ['**/*.html'],
     dest: './www',
-    expand: true,
-    livereload: false
+    expand: true
   }
 };

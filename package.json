@@ -13,6 +13,7 @@
     "grunt-css-url-embed": "^1.5.1",
     "grunt-inline": "^0.3.4",
     "grunt-modernizr": "^0.6.0",
+    "grunt-sass-globbing": "^1.2.0",
     "load-grunt-config": "^0.16.0"
   }
 }
