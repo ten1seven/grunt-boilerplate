@@ -1,31 +1,36 @@
 module.exports = {
   'default': [
     'connect',
+    'notify:server',
     'watch'
   ],
 
   'styles': [
-    'sass_globbing',
-    'sass',
-    'cssUrlEmbed',
-    'autoprefixer',
-    'combine_mq',
+    'newer:sass_globbing',
+    'newer:sass',
+    'newer:cssUrlEmbed',
+    'newer:autoprefixer',
+    'newer:combine_mq',
+    'notify:styles',
     'html'
   ],
 
   'scripts': [
-    'browserify',
-    'modernizr',
+    'newer:browserify',
+    'newer:modernizr',
+    'notify:scripts',
     'html'
   ],
 
   'images': [
-    'imagemin'
+    'newer:imagemin',
+    'notify:images'
   ],
 
   'html': [
-    'copy:html',
-    'inline'
+    'newer:copy:html',
+    'newer:inline',
+    'notify:html'
   ],
 
   'build': [
@@ -38,6 +43,7 @@ module.exports = {
     'combine_mq',
     'browserify',
     'modernizr',
-    'html'
+    'html',
+    'notify:build'
   ]
 };
