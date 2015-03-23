@@ -16,6 +16,7 @@ module.exports = {
   ],
 
   'scripts': [
+    'jshint',
     'newer:browserify',
     'newer:modernizr',
     'notify:scripts',

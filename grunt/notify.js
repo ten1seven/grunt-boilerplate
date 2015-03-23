@@ -2,7 +2,7 @@ module.exports = {
   options: {
     enabled: true,
     max_jshint_notifications: 5,
-    title: projTitle,
+    //title: projTitle,
     success: false,
     duration: 3
   },
@@ -14,12 +14,12 @@ module.exports = {
   },
   html: {
     options: {
-      message: 'HTML task finished running.',
+      message: 'HTML task finished running.'
     }
   },
   images: {
     options: {
-      message: 'Images task finished running.',
+      message: 'Images task finished running.'
     }
   },
   server: {
@@ -29,12 +29,12 @@ module.exports = {
   },
   scripts: {
     options: {
-      message: 'Scripts task finished running.',
+      message: 'Scripts task finished running.'
     }
   },
   styles: {
     options: {
-      message: 'Styles task finished running.',
+      message: 'Styles task finished running.'
     }
   }
 };
